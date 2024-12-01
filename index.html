@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Megrim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hidetoのサイト</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header-container">
+        <h1 class="header-logo">
+          <a href="./index.html">Hideto's web site</a>
+        </h1>
+        <nav>
+          <ul class="header-links">
+            <li class="header-link"><a href="#history">History</a></li>
+            <li class="header-link"><a href="#skills">Skills</a></li>
+            <li class="header-link"><a href="#other">Other info</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero hero-top">
+      <h1 class="hero-title">Hideto's web site</h1>
+    </section>
+
+    <article>
+      <div class="container">
+        <h2 class="header-primary">こんにちは、横林 秀飛です。</h2>
+
+        <p>このWebサイトは、HTML・CSSの練習のために作ったサイトです。</p>
+        <p>
+          以下、簡単に自己紹介を掲載しておりますので、よろしければご覧ください！
+        </p>
+
+        <nav class="article-nav">
+          <ul class="nav-links">
+            <li class="nav-link"><a href="#history">History</a></li>
+            <li class="nav-link"><a href="#skills">Skills</a></li>
+            <li class="nav-link"><a href="#other">Other infomation</a></li>
+          </ul>
+        </nav>
+
+        <h2 class="header-primary" id="history">History</h2>
+        <h3 class="heading-secondary">幼少期</h3>
+        <div class="image-containter">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ad
+            fugiat, magnam quidem rerum provident possimus quia velit, quaerat
+            reiciendis et ut consequatur laborum, officia inventore laboriosam
+            ducimus. Ad, perferendis?
+          </p>
+          <img width="200" height="200" />
+        </div>
+        <h3 class="heading-secondary">高校生時代</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ad
+          fugiat, magnam quidem rerum provident possimus quia velit, quaerat
+          reiciendis et ut consequatur laborum, officia inventore laboriosam
+          ducimus. Ad, perferendis?
+        </p>
+        <h3 class="heading-secondary">大学生時代</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ad
+          fugiat, magnam quidem rerum provident possimus quia velit, quaerat
+          reiciendis et ut consequatur laborum, officia inventore laboriosam
+          ducimus. Ad, perferendis?
+        </p>
+        <h3 class="heading-secondary">大学卒業後〜現在</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ad
+          fugiat, magnam quidem rerum provident possimus quia velit, quaerat
+          reiciendis et ut consequatur laborum, officia inventore laboriosam
+          ducimus. Ad, perferendis?
+        </p>
+
+        <h2 class="header-primary" id="skills">skills</h2>
+        <h3 class="heading-secondary">test</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ad
+          fugiat, magnam quidem rerum provident possimus quia velit, quaerat
+          reiciendis et ut consequatur laborum, officia inventore laboriosam
+          ducimus. Ad, perferendis?
+        </p>
+
+        <h2 class="header-primary" id="other">Other infomation</h2>
+        <h3 class="heading-secondary">test</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ad
+          fugiat, magnam quidem rerum provident possimus quia velit, quaerat
+          reiciendis et ut consequatur laborum, officia inventore laboriosam
+          ducimus. Ad, perferendis?
+        </p>
+      </div>
+    </article>
+
+    <footer>
+      <div class="container footer-container">
+        <hr />
+      </div>
+    </footer>
+
+    <script>
+      const year = new Date().getFullYear();
+      document
+        .querySelector(".footer-container")
+        .insertAdjacentHTML(
+          "beforeEnd",
+          `<p class="copyright">&copy; ${year} H. Yokobayashi</p>`
+        );
+    </script>
+  </body>
+</html>
